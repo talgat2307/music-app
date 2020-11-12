@@ -1,0 +1,103 @@
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  line-height: 1.8;
+}
+
+.Navbar {
+  border-bottom: 2px solid #000000;
+}
+
+h1 a {
+  color: #eb3443;
+  text-decoration: none;
+}
+
+
+.artist {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  border: 2px solid #000000;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.artist h2 {
+  padding-left: 200px;
+}
+
+.artist img {
+  border-radius: 3px;
+}
+
+.albumHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.albumHeader a {
+  text-decoration: none;
+  color: #e8e3e1;
+  padding: 8px 15px;
+  background-color: #f04343;
+  border-radius: 5px;
+}
+
+.album {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  border: 2px solid #000000;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.album div {
+  padding-left: 100px;
+}
+
+.album img {
+  border-radius: 3px;
+}
+
+.trackHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.trackHeader a {
+  text-decoration: none;
+  color: #e8e3e1;
+  padding: 8px 15px;
+  background-color: #f04343;
+  border-radius: 5px;
+  }
+
+.track {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.track li {
+  width: 90%;
+  border-bottom: 1px solid #000000;
+  padding: 0 5px;
+  margin-bottom: 25px;
+  list-style: none;
+}
+
+.track strong {
+  padding-right: 10px;
+}
+
+.track p {
+  margin: 0;
+  padding: 0;
+}
